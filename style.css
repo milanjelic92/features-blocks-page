@@ -125,7 +125,7 @@ header {
   align-items: center;
   transform: translateX(-1000%);
   opacity: 0;
-  animation: featureLog 1s ease-in 0.8s;
+  animation: featureLog 600ms ease-in 300ms;
   animation-fill-mode: forwards;
 }
 
@@ -134,14 +134,14 @@ header {
   justify-content: space-between;
   transform: translateX(1000%);
   opacity: 0;
-  animation: featureConverLog 1s ease-in 1.5s;
+  animation: featureConverLog 600ms ease-in 500ms;
   animation-fill-mode: forwards;
 }
 
 .feature-block.featureLast {
   transform: translateX(-1000%);
   opacity: 0;
-  animation: featureLastLog 1s ease-in 2.2s;
+  animation: featureLastLog 600ms ease-in 700ms;
   animation-fill-mode: forwards;
 }
 
